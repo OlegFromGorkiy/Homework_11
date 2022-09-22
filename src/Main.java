@@ -66,7 +66,7 @@ public class Main {
         System.out.println("Задание 5");
         char[] charArray = str.toCharArray();
 //        Arrays.sort(charArray); // if string not sorted
-        for (int i = 0; i < charArray.length - 1; i += 2) {
+        for (int i = 0; i < charArray.length - 1; i ++) {
             if (charArray[i] == charArray[i + 1]) {
                 System.out.println("В строке задублирован символ - " + charArray[i] + ".");
                 System.out.println("***\n");
